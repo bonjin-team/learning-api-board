@@ -1,0 +1,21 @@
+
+#################################
+#  START
+#################################
+server:
+  # ===============================
+  # = Embedded Server Config
+  # ===============================
+  # Server Port
+  port: 8099
+
+  # whitelabel 기본 오류 페이지 비활성화
+  error:
+    whitelabel:
+      enabled: false
+
+  # Spring boot 2.x session timeout
+  servlet:
+    session:
+      # Default 30m
+      timeout: 10m
